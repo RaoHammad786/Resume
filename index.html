@@ -1,0 +1,505 @@
+<!--
+Project: Muhammad Talha - Portfolio (GitHub Pages ready)
+Structure: (place these files in repository root)
+  /index.html
+  /about.html
+  /services.html
+  /work.html
+  /contact.html
+  /css/style.css
+  /js/main.js
+  /assets/profile.jpg   <-- replace with your CV headshot (from uploaded CV)
+  /assets/favicon.png   <-- optional
+
+Instructions: copy each file into your project, commit, then enable GitHub Pages (branch: main or gh-pages) to host.
+-->
+
+--- index.html ---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Muhammad Talha — Shopify Developer & Lead Gen Specialist</title>
+  <link rel="stylesheet" href="/css/style.css" />
+  <meta name="description" content="Muhammad Talha — Shopify Developer & Lead Generation Specialist. Expert in high-converting eCommerce stores, lead generation, WordPress customization, and optimization." />
+  <link rel="icon" href="/assets/favicon.png" />
+</head>
+<body class="dark">
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">Talha</a>
+      <nav>
+        <ul class="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="work.html">Work</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button class="cta" onclick="location.href='contact.html'">Hire Me</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-left">
+        <img src="/assets/profile.jpg" alt="Muhammad Talha" class="profile" />
+      </div>
+      <div class="hero-right">
+        <h1> Muhammad <span class="accent">Talha</span></h1>
+        <p class="lead">Shopify Developer &amp; Lead Generation Specialist</p>
+        <p class="intro">I build high-converting Shopify stores and run lead-generation funnels for eCommerce brands. I focus on theme customization, performance optimization, seamless payment integration, and data-driven lead prospecting to help businesses increase sales and scale sustainably.</p>
+
+        <div class="cta-row">
+          <a class="btn" href="work.html">See My Work</a>
+          <a class="btn ghost" href="services.html">Services</a>
+        </div>
+
+        <ul class="quick-stats">
+          <li><strong>6+</strong> years Lead Gen</li>
+          <li><strong>3+</strong> years Shopify</li>
+          <li><strong>100+</strong> Products uploaded</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="services container" id="services-preview">
+      <h2>Core Services</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Shopify Development</h3>
+          <p>Theme customization, app integrations, speed optimization, product imports, and responsive design to convert more visitors into customers.</p>
+        </article>
+
+        <article class="card">
+          <h3>Lead Generation</h3>
+          <p>Targeted prospecting on LinkedIn & Apollo, campaign set ups, data cleansing, and email & automation sequences that bring qualified leads.</p>
+        </article>
+
+        <article class="card">
+          <h3>WordPress & eCommerce</h3>
+          <p>Theme tailoring, UX improvements, SEO optimizations, and performance tuning for fast, secure stores.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="work-preview container">
+      <h2>Selected Projects</h2>
+      <div class="project-grid">
+        <article class="project">
+          <h4>WordPress Theme Customization</h4>
+          <p>Customized a WordPress theme to match client branding and improved load speed and user experience. (Sept 2024)</p>
+          <a href="work.html#project-wp" class="muted">Read more</a>
+        </article>
+
+        <article class="project">
+          <h4>Shopify Store Speed & UX</h4>
+          <p>Optimized Shopify store, reduced page load by 45%, improved checkout flow and mobile conversion.</p>
+          <a href="work.html#project-shopify" class="muted">Read more</a>
+        </article>
+
+        <article class="project">
+          <h4>Lead Prospecting Campaign</h4>
+          <p>Built targeted LinkedIn + email funnel for B2B services, resulting in qualified pipeline growth.</p>
+          <a href="work.html#project-leads" class="muted">Read more</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact-cta container">
+      <div class="contact-box">
+        <h3>Ready to grow your store or gather better leads?</h3>
+        <p>Send a message and I'll get back with a tailored plan and pricing.</p>
+        <a class="btn" href="contact.html">Contact Me</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Muhammad Talha — Shopify Developer & Lead Generation Specialist</p>
+      <div class="footer-links">
+        <a href="https://github.com/">GitHub</a>
+        <a href="#">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>
+
+--- about.html ---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About — Muhammad Talha</title>
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body class="dark">
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">Talha</a>
+      <nav>
+        <ul class="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="work.html">Work</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container about-page">
+    <section class="about-hero">
+      <img src="/assets/profile.jpg" alt="Muhammad Talha" class="profile-lg" />
+      <div>
+        <h1>About Me</h1>
+        <p class="lead">Shopify Developer & Lead Generation Specialist based in Lodhran, Punjab.</p>
+        <p>I’m Muhammad Talha — I design and develop eCommerce websites optimized for conversions and manage lead-generation systems that bring qualified prospects. I combine hands-on development with data-driven outreach:</p>
+        <ul>
+          <li><strong>Shopify & eCommerce:</strong> Theme customization, Liquid templating, app integration, product import automation, responsive design, and speed optimization.</li>
+          <li><strong>Lead Generation:</strong> LinkedIn prospecting, Apollo, Google Sheets automation, cold emailing sequences, and list enrichment.</li>
+          <li><strong>Other Skills:</strong> WordPress, basic Photoshop for product visuals, SEO fundamentals, payment gateway setup.</li>
+        </ul>
+
+        <h3>How I Work</h3>
+        <p>I start with discovery — understand the brand, target audience, and business goals. Then I craft a prioritized plan: wireframe → implementation → testing → optimization. Communication is regular and transparent; I deliver milestones with clear acceptance criteria.</p>
+
+        <h3>Education & Certifications</h3>
+        <p>Tareen Institute of Computer Education — Digital Marketing (2024).</p>
+
+        <h3>Contact</h3>
+        <p>Phone: +923001058022<br>Email: muhammadtalha8022@gmail.com<br>Location: Lodhran, Punjab</p>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year2"></span> Muhammad Talha</p>
+    </div>
+  </footer>
+  <script src="/js/main.js"></script>
+</body>
+</html>
+
+--- services.html ---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Services — Muhammad Talha</title>
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body class="dark">
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">Talha</a>
+      <nav>
+        <ul class="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="work.html">Work</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container services-page">
+    <h1>Services</h1>
+    <p class="lead">Practical, results-focused services to help your online business grow.</p>
+
+    <section class="service-list">
+      <article class="service-item">
+        <h3>Full Shopify Store Setup</h3>
+        <p>From theme selection to product uploads, payment gateway, shipping settings, collections, and launch checklist. Perfect for new stores or re-platforming.</p>
+        <ul>
+          <li>Theme customization and Liquid tweaks</li>
+          <li>Apps & integrations (reviews, analytics, subscriptions)</li>
+          <li>Product import & bulk upload</li>
+          <li>Checkout improvements & payment setup</li>
+        </ul>
+      </article>
+
+      <article class="service-item">
+        <h3>Store Optimization & Performance</h3>
+        <p>Speed audits, image optimization, code splitting, caching tips, and critical CSS to reduce bounce rate and improve mobile conversions.</p>
+      </article>
+
+      <article class="service-item">
+        <h3>Lead Generation & Outreach</h3>
+        <p>Targeted prospect lists, LinkedIn outreach sequences, cold email funnels, and pipeline management.</p>
+      </article>
+
+      <article class="service-item">
+        <h3>WordPress Theme Customization</h3>
+        <p>Custom page templates, responsive layouts, plugin recommendations, and SEO best practices for marketing sites and small stores.</p>
+      </article>
+    </section>
+
+    <aside class="pricing-note">
+      <h4>Pricing</h4>
+      <p>Pricing depends on scope. Typical packages:</p>
+      <ul>
+        <li>Basic Shopify Setup — fixed starting price</li>
+        <li>Store Optimization — hourly or fixed sprint</li>
+        <li>Lead Gen Campaigns — per-campaign pricing</li>
+      </ul>
+      <p>Contact me for a custom quote.</p>
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year3"></span> Muhammad Talha</p>
+    </div>
+  </footer>
+  <script src="/js/main.js"></script>
+</body>
+</html>
+
+--- work.html ---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Work — Projects & Experience</title>
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body class="dark">
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">Talha</a>
+      <nav>
+        <ul class="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="work.html">Work</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container work-page">
+    <h1>Experience & Projects</h1>
+
+    <section class="timeline">
+      <article class="timeline-item">
+        <h3>Shopify Developer — RARs Technologies</h3>
+        <span class="muted">2025 — Present</span>
+        <p>5 months focused on theme customization, product uploads, app integrations, speed improvements and UX changes to increase conversions.</p>
+      </article>
+
+      <article class="timeline-item">
+        <h3>Lead Generation Specialist — Lead Surface</h3>
+        <span class="muted">2024 / 2025</span>
+        <p>6 years remotely generating leads for international clients using LinkedIn, Apollo, Sheets automation and email sequences. Responsible for list building, segmentation and outreach metrics.</p>
+      </article>
+
+      <article class="timeline-item">
+        <h3>WordPress Developer — Smart X</h3>
+        <span class="muted">2022/4 — 2024</span>
+        <p>3 months (contract) building responsive WordPress sites, optimizing speed and customizing themes per client requirements.</p>
+      </article>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2>Selected Projects</h2>
+
+      <article id="project-wp" class="project-detail">
+        <h4>WordPress Theme Customization (10-9-2024 / 17-9-2024)</h4>
+        <p>Customized and optimized a WordPress theme to match client branding, enhance UX and improve performance. Work included: template edits, CSS refinements, image optimization, and plugin configuration.</p>
+        <p>Live: <a href="https://www.t-dispatch.com/">t-dispatch.com</a></p>
+      </article>
+
+      <article id="project-shopify" class="project-detail">
+        <h4>Shopify Store Optimization</h4>
+        <p>Comprehensive audit, code cleanup, lazy-loading images, app review and cart flow improvements. Result: improved load time and higher mobile conversion.</p>
+      </article>
+
+      <article id="project-leads" class="project-detail">
+        <h4>Lead Generation Campaign</h4>
+        <p>Built targeted lists, ran multi-channel outreach, and delivered qualified leads to sales teams. Tools: LinkedIn Sales Navigator, Apollo, Google Sheets, Mail/Outreach automation.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year4"></span> Muhammad Talha</p>
+    </div>
+  </footer>
+  <script src="/js/main.js"></script>
+</body>
+</html>
+
+--- contact.html ---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact — Muhammad Talha</title>
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body class="dark">
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">Talha</a>
+      <nav>
+        <ul class="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="work.html">Work</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container contact-page">
+    <h1>Contact Me</h1>
+    <p class="lead">Want to hire me or ask a question? Use the form or contact directly.</p>
+
+    <div class="contact-grid">
+      <form id="contactForm" action="#" onsubmit="handleContact(event)">
+        <label>Full name</label>
+        <input name="name" required />
+
+        <label>Email</label>
+        <input name="email" type="email" required />
+
+        <label>Subject</label>
+        <input name="subject" />
+
+        <label>Message</label>
+        <textarea name="message" rows="6" required></textarea>
+
+        <button class="btn" type="submit">Send Message</button>
+      </form>
+
+      <aside class="contact-info">
+        <h3>Direct Contact</h3>
+        <p><strong>Phone:</strong> +923001058022</p>
+        <p><strong>Email:</strong> <a href="mailto:muhammadtalha8022@gmail.com">muhammadtalha8022@gmail.com</a></p>
+        <p><strong>Location:</strong> Lodhran, Punjab</p>
+
+        <h4>Languages</h4>
+        <p>English, Urdu</p>
+
+        <h4>Availability</h4>
+        <p>Freelance / Contract — open to remote work</p>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year5"></span> Muhammad Talha</p>
+    </div>
+  </footer>
+  <script src="/js/main.js"></script>
+</body>
+</html>
+
+--- css/style.css ---
+:root{
+  --bg:#0f1720; /* deep navy */
+  --panel:#11151a;
+  --muted:#98a0aa;
+  --accent:#3ddc97; /* a teal/green accent */
+  --glass: rgba(255,255,255,0.03);
+  --text:#e6eef6;
+}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial}
+body.dark{background:linear-gradient(180deg,var(--bg),#071019);color:var(--text)}
+.container{max-width:1100px;margin:0 auto;padding:28px}
+.site-header{position:sticky;top:0;background:transparent;padding:12px 0;z-index:40}
+.nav-wrap{display:flex;align-items:center;justify-content:space-between}
+.brand{color:var(--text);font-weight:700;font-size:20px;text-decoration:none}
+.nav{list-style:none;margin:0;padding:0;display:flex;gap:18px;align-items:center}
+.nav a{color:var(--muted);text-decoration:none}
+.nav a:hover{color:var(--text)}
+.cta{background:transparent;border:1px solid rgba(255,255,255,0.06);padding:8px 12px;border-radius:8px;color:var(--text);cursor:pointer}
+.cta:hover{transform:translateY(-2px)}
+.hero{display:flex;gap:28px;align-items:center;padding:40px 0}
+.hero-left{flex:0 0 220px}
+.profile{width:220px;height:220px;border-radius:50%;object-fit:cover;border:8px solid rgba(255,255,255,0.06);background:var(--glass)}
+.hero-right{flex:1}
+.hero h1{font-size:48px;margin:0 0 8px}
+.hero .accent{color:var(--accent)}
+.lead{color:var(--muted);font-size:18px;margin-top:6px}
+.intro{margin:14px 0;color:var(--muted);line-height:1.6}
+.cta-row{display:flex;gap:12px;margin-top:14px}
+.btn{background:var(--accent);color:#041018;padding:10px 16px;border-radius:8px;text-decoration:none}
+.btn.ghost{background:transparent;border:1px solid rgba(255,255,255,0.04)}
+.quick-stats{display:flex;gap:18px;margin-top:18px;list-style:none;padding:0}
+.quick-stats li{color:var(--muted)}
+.services h2,.work-preview h2{margin-top:0}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;margin-top:18px}
+.card{background:rgba(255,255,255,0.02);padding:18px;border-radius:12px}
+.project-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+.project{background:rgba(255,255,255,0.015);padding:14px;border-left:4px solid rgba(255,255,255,0.03);border-radius:8px}
+.contact-cta{margin:36px 0}
+.contact-box{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:22px;border-radius:12px}
+.site-footer{padding:20px 0;color:var(--muted)}
+.muted{color:var(--muted)}
+.about-page .about-hero{display:flex;gap:20px;align-items:flex-start}
+.profile-lg{width:160px;height:160px;border-radius:12px;object-fit:cover}
+.services-page .service-list{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.service-item{background:rgba(255,255,255,0.02);padding:16px;border-radius:10px}
+.pricing-note{margin-top:20px;background:rgba(255,255,255,0.01);padding:14px;border-radius:8px}
+.work-page .timeline{display:flex;flex-direction:column;gap:12px}
+.timeline-item{background:rgba(255,255,255,0.02);padding:14px;border-radius:8px}
+.projects .project-detail{margin-top:10px;padding:12px;background:rgba(255,255,255,0.01);border-radius:8px}
+.contact-page .contact-grid{display:grid;grid-template-columns:1fr 320px;gap:20px}
+form input, form textarea{width:100%;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:var(--text)}
+form label{display:block;margin:10px 0 6px;color:var(--muted)}
+.btn{border:none;display:inline-block}
+@media(max-width:900px){
+  .hero{flex-direction:column;align-items:center}
+  .hero-left{order:2}
+  .hero-right{order:1;text-align:center}
+  .about-page .about-hero{flex-direction:column;align-items:center}
+  .services-page .service-list{grid-template-columns:1fr}
+  .contact-page .contact-grid{grid-template-columns:1fr}
+}
+
+--- js/main.js ---
+// Basic interactivity and form handler
+document.getElementById('year')?.appendChild(document.createTextNode(new Date().getFullYear()));
+document.getElementById('year2')?.appendChild(document.createTextNode(new Date().getFullYear()));
+document.getElementById('year3')?.appendChild(document.createTextNode(new Date().getFullYear()));
+document.getElementById('year4')?.appendChild(document.createTextNode(new Date().getFullYear()));
+document.getElementById('year5')?.appendChild(document.createTextNode(new Date().getFullYear()));
+
+function handleContact(e){
+  e.preventDefault();
+  const f = e.target;
+  const name = f.name.value.trim();
+  const email = f.email.value.trim();
+  const msg = f.message.value.trim();
+  if(!name || !email || !msg){
+    alert('Please fill required fields.');
+    return;
+  }
+  // Simple local success UI — replace with email service (Formspree, Netlify forms, Zapier) for production
+  alert('Thanks '+name+"! Message captured locally. For live form, connect a backend or Formspree.");
+  f.reset();
+}
+
+// Mobile nav behavior could be added here in future
